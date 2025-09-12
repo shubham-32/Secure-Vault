@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>SecureVault Settings</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self';"/>
+ <link rel="stylesheet" href="../src/styles.css" />
+</head>
+<body>
+  <div class="options">
+    <!-- Header -->
+    <div class="header">
+      <div class="brand">
+        <div class="logo">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M6 10a6 6 0 1 1 12 0v3H6v-3Z" stroke="white" stroke-width="1.6"/>
+            <rect x="8" y="13" width="8" height="7" rx="2" stroke="white" stroke-width="1.6"/>
+          </svg>
+        </div>
+        <div class="title"><b>SecureVault</b><span>Password Manager</span></div>
+      </div>
+      <div class="actions">
+        <button id="lockBtn" class="btn btn-outline">Lock Vault</button>
+      </div>
+    </div>
+
+    <!-- Settings -->
+    <div class="grid" style="margin-top:14px;">
+      <div class="block">
+        <div class="h1">Settings</div>
+        <div class="separator"></div>
+
+        <div class="grid grid-2">
+          <!-- Theme -->
+          <div>
+            <label for="theme">Theme</label>
+            <select id="theme">
+              <option value="dark">Dark</option>
+              <option value="system">System</option>
+            </select>
+          </div>
+
+          <!-- Auto-lock -->
+          <div>
+            <label for="autoLock">Auto-lock after</label>
+            <select id="autoLock">
+              <option value="1">1 minute</option>
+              <option value="5">5 minutes</option>
+              <option value="15">15 minutes</option>
+              <option value="30">30 minutes</option>
+              <option value="60">60 minutes</option>
+              <option value="0">Never</option>
+            </select>
+            <div style="margin-top:8px;">
+              <label>
+                <input id="keep-unlocked" type="checkbox"/>
+                Remember session until timer expires
+              </label>
+            </div>
+          </div>
+
+          <!-- Clipboard timeout -->
+          <div>
+            <label for="clipboardTimeout">Clipboard timeout</label>
+            <select id="clipboardTimeout">
+              <option value="15">15s</option>
+              <option value="30" selected>30s</option>
+              <option value="60">60s</option>
+              <option value="120">120s</option>
+            </select>
+          </div>
+
+          <!-- Password strength -->
+          <div>
+            <label for="strengthSwitch">Show password strength</label>
+            <div id="strengthSwitch" class="switch"><div class="dot"></div></div>
+          </div>
+        </div>
+
+        <div class="actions-row" style="margin-top:16px;">
+          <button id="saveBtn" class="btn btn-primary" style="flex:1;">Save Settings</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">🔒 End-to-end encrypted</div>
+  </div>
+  <script type="module" src="./options.js"></script>
+</body>
+</html>
