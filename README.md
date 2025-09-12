@@ -15,8 +15,8 @@ A lightweight Chrome extension that provides an end-to-end encrypted password ma
 
 | Lock Screen | Vault Dashboard |
 |-------------|-----------------|
-| ![Lock Screen](icons/screenshot1.png) | ![Vault Dashboard](icons/screenshot2.png) |
-| 🔒 Unlock with your master password | 📂 Manage credentials securely |
+| ![Lock Screen](icons/ss-1.png.png) | ![Vault Dashboard](icons/ss-2.png.png) |
+| Create a Master Password | 🔒 Unlock with your master password | 📂 Manage credentials securely |
 
 ## 📁 Project Structure
 
