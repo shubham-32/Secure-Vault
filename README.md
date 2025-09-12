@@ -1,4 +1,4 @@
-#![SecureVault Icon](icons/icon-32.png) SecureVault – Encrypted Password Manager
+![SecureVault Icon](icons/icon-32.png) SecureVault – Encrypted Password Manager
 
 A lightweight Chrome extension that provides an end-to-end encrypted password manager. All encryption happens locally in your browser – ensuring that even if your data is leaked, it remains unreadable.
 
