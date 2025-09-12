@@ -121,36 +121,5 @@ cd SecureVault
 # Submit a pull request
 ```
 
-## 🐛 Known Issues
-
-- Extension currently supports Chrome only (Firefox support planned)
-- Auto-fill may not work on all websites due to varying field structures
-
-## 🗺️ Roadmap
-
-- [ ] Firefox extension support
-- [ ] Import/export functionality
-- [ ] Password strength analyzer
-- [ ] Two-factor authentication support
-- [ ] Dark mode theme
-- [ ] Argon2 key derivation option
-
-## 📄 License
-
-MIT License © 2025
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-
-## 🙏 Acknowledgments
-
-- Thanks to the Chrome Extensions team for the robust API
-- WebCrypto API for secure client-side encryption
-- The open-source community for inspiration and feedback
-
----
 
 **⚠️ Security Notice**: While SecureVault uses industry-standard encryption, always use strong, unique master passwords and keep your browser updated for maximum security.
