@@ -42,32 +42,32 @@ screenshots:
 
 ---
 
-project_structure: |
-  SecureVault/
-  │
-  ├── icons/                # Extension icon + screenshots for README
-  │   ├── icon-128.png
-  │   ├── screenshot1.png
-  │   └── screenshot2.png
-  │
-  ├── PopupUI/              # Frontend (popup + options pages)
-  │   ├── popup.html
-  │   ├── popup.js
-  │   ├── options.html
-  │   ├── options.js
-  │   ├── offscreen.html
-  │   └── offscreen.js
-  │
-  ├── src/                  # Core logic
-  │   ├── background.js
-  │   ├── content.js
-  │   ├── crypto.js
-  │   ├── db.js
-  │   └── password.js
-  │
-  ├── styles.css            # Shared stylesheet
-  ├── manifest.json         # Chrome extension manifest (v3)
-  └── README.md             # Project documentation
+Secure-Vault/
+│
+├── icons/                # Extension icon + screenshots
+│   ├── icon-128.png
+│   ├── screenshot1.png
+│   └── screenshot2.png
+│
+├── PopupUI/              # Frontend (popup + options pages)
+│   ├── popup.html
+│   ├── popup.js
+│   ├── options.html
+│   ├── options.js
+│   ├── offscreen.html
+│   └── offscreen.js
+│
+├── src/                  # Core logic
+│   ├── background.js
+│   ├── content.js
+│   ├── crypto.js
+│   ├── db.js
+│   └── password.js
+│
+├── styles.css            # Shared stylesheet
+├── manifest.json         # Chrome extension manifest (v3)
+└── README.md             # Documentation
+
 
 ---
 
